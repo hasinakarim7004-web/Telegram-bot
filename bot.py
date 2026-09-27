@@ -31,7 +31,7 @@ async def send_to_telegram(phone, cli, sms_text):
     otp_code, service = extract_otp_and_service(sms_text, cli)
     
     message = (
-        f"<b>Fast Work</b>\n"
+        f"<b>OtpWork</b>\n"
         f"{flag} {country_code} 💬 +{phone}\n"
         f"🌐 SERVICE: {service}"
     )
